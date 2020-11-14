@@ -1,0 +1,3 @@
+D:\Users\Admin\Desktop\C++\SatisfactoryCalculator\SatisfactoryCalculator\Debug\SatisfactoryCalculator.vcxprojAssemblyReference.cache
+D:\Users\Admin\Desktop\C++\SatisfactoryCalculator\SatisfactoryCalculator\Debug\SatisfactoryCalculator.MyForm.resources
+D:\Users\Admin\Desktop\C++\SatisfactoryCalculator\SatisfactoryCalculator\Debug\SatisfactoryCalculator.vcxproj.GenerateResource.cache
