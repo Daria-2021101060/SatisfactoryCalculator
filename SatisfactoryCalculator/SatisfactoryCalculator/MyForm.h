@@ -70,8 +70,8 @@ std::string vanillaItemList[1000]{"A.I. Limiter",
 "Turbo Motor (Recipe: 1)",
 "Versatile Framework (Recipe: 1)",
 "Wire (Recipe: 1)" };
-//#define string System::String^
 
+// ============================================================================================	Windows forms
 namespace SatisfactoryCalculator {
 
 	using namespace System;
@@ -82,7 +82,7 @@ namespace SatisfactoryCalculator {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Summary for MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -91,13 +91,13 @@ namespace SatisfactoryCalculator {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: add constructor code
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// Free up all used resources.
 		/// </summary>
 		~MyForm()
 		{
@@ -158,14 +158,14 @@ namespace SatisfactoryCalculator {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// Required constructor variable.
 		/// </summary>
 
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Required method for constructor support - do not modify
+		/// the contents of this method using a code editor.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -294,17 +294,17 @@ namespace SatisfactoryCalculator {
 			this->treeView1->Indent = 15;
 			this->treeView1->Location = System::Drawing::Point(12, 25);
 			this->treeView1->Name = L"treeView1";
-			treeNode1->Name = L"Узел3";
+			treeNode1->Name = L"Г“Г§ГҐГ«3";
 			treeNode1->Text = L"(X machines) Example.1.1 - X count - X WM";
-			treeNode2->Name = L"Узел1";
+			treeNode2->Name = L"Г“Г§ГҐГ«1";
 			treeNode2->Text = L"(X machines) Example.1 - X count - My + X WM";
-			treeNode3->Name = L"Узел4";
+			treeNode3->Name = L"Г“Г§ГҐГ«4";
 			treeNode3->Text = L"(X machines) Example.2.1 - X count - X WM";
-			treeNode4->Name = L"Узел5";
+			treeNode4->Name = L"Г“Г§ГҐГ«5";
 			treeNode4->Text = L"(X machines) Example.2.2 - X count - X WM";
-			treeNode5->Name = L"Узел2";
+			treeNode5->Name = L"Г“Г§ГҐГ«2";
 			treeNode5->Text = L"(X machines) Example.2 - X count - My + X WM";
-			treeNode6->Name = L"Узел0";
+			treeNode6->Name = L"Г“Г§ГҐГ«0";
 			treeNode6->Text = L"(X machines) Example - X count - My + X WM";
 			this->treeView1->Nodes->AddRange(gcnew cli::array< System::Windows::Forms::TreeNode^  >(1) { treeNode6 });
 			this->treeView1->SelectedImageKey = L"Supercomputer";
@@ -668,111 +668,111 @@ namespace SatisfactoryCalculator {
 			treeNode7->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
 				static_cast<System::Int32>(static_cast<System::Byte>(192)));
 			treeNode7->ForeColor = System::Drawing::Color::Red;
-			treeNode7->Name = L"Узел0";
+			treeNode7->Name = L"Г“Г§ГҐГ«0";
 			treeNode7->Text = L"A.I. Limiter";
-			treeNode8->Name = L"Узел1";
+			treeNode8->Name = L"Г“Г§ГҐГ«1";
 			treeNode8->Text = L"Adaptive Control Unit";
-			treeNode9->Name = L"Узел2";
+			treeNode9->Name = L"Г“Г§ГҐГ«2";
 			treeNode9->Text = L"Alclad Aluminum Sheet";
-			treeNode10->Name = L"Узел3";
+			treeNode10->Name = L"Г“Г§ГҐГ«3";
 			treeNode10->Text = L"Aluminum Ingot (Recipe: 1)";
-			treeNode11->Name = L"Узел4";
+			treeNode11->Name = L"Г“Г§ГҐГ«4";
 			treeNode11->Text = L"Aluminum Scrap (Recipe: 1)";
-			treeNode12->Name = L"Узел5";
+			treeNode12->Name = L"Г“Г§ГҐГ«5";
 			treeNode12->Text = L"Automated Wiring (Recipe: 1)";
-			treeNode13->Name = L"Узел6";
+			treeNode13->Name = L"Г“Г§ГҐГ«6";
 			treeNode13->Text = L"Battery";
-			treeNode14->Name = L"Узел7";
+			treeNode14->Name = L"Г“Г§ГҐГ«7";
 			treeNode14->Text = L"Beacon (Recipe: 1)";
-			treeNode15->Name = L"Узел8";
+			treeNode15->Name = L"Г“Г§ГҐГ«8";
 			treeNode15->Text = L"Black Powder (Recipe: 1)";
-			treeNode16->Name = L"Узел9";
+			treeNode16->Name = L"Г“Г§ГҐГ«9";
 			treeNode16->Text = L"Cable (Recipe: 1)";
-			treeNode17->Name = L"Узел10";
+			treeNode17->Name = L"Г“Г§ГҐГ«10";
 			treeNode17->Text = L"Caterium Ingot (Recipe: 1)";
-			treeNode18->Name = L"Узел11";
+			treeNode18->Name = L"Г“Г§ГҐГ«11";
 			treeNode18->Text = L"Circuit Board (Recipe: 1)";
-			treeNode19->Name = L"Узел12";
+			treeNode19->Name = L"Г“Г§ГҐГ«12";
 			treeNode19->Text = L"Computer (Recipe: 1)";
-			treeNode20->Name = L"Узел13";
+			treeNode20->Name = L"Г“Г§ГҐГ«13";
 			treeNode20->Text = L"Concrete (Recipe: 1)";
-			treeNode21->Name = L"Узел14";
+			treeNode21->Name = L"Г“Г§ГҐГ«14";
 			treeNode21->Text = L"Copper Ingot (Recipe: 1)";
-			treeNode22->Name = L"Узел15";
+			treeNode22->Name = L"Г“Г§ГҐГ«15";
 			treeNode22->Text = L"Copper Sheet (Recipe: 1)";
-			treeNode23->Name = L"Узел16";
+			treeNode23->Name = L"Г“Г§ГҐГ«16";
 			treeNode23->Text = L"Crystal Oscillator (Recipe: 1)";
-			treeNode24->Name = L"Узел17";
+			treeNode24->Name = L"Г“Г§ГҐГ«17";
 			treeNode24->Text = L"Electromagnetic Control Rod (Recipe: 1)";
-			treeNode25->Name = L"Узел18";
+			treeNode25->Name = L"Г“Г§ГҐГ«18";
 			treeNode25->Text = L"Empty Canister";
-			treeNode26->Name = L"Узел19";
+			treeNode26->Name = L"Г“Г§ГҐГ«19";
 			treeNode26->Text = L"Encased Industrial Beam (Recipe: 1)";
-			treeNode27->Name = L"Узел20";
+			treeNode27->Name = L"Г“Г§ГҐГ«20";
 			treeNode27->Text = L"Encased Uranium Cell (Recipe: 1)";
-			treeNode28->Name = L"Узел21";
+			treeNode28->Name = L"Г“Г§ГҐГ«21";
 			treeNode28->Text = L"Fabric (Recipe: 1)";
-			treeNode29->Name = L"Узел22";
+			treeNode29->Name = L"Г“Г§ГҐГ«22";
 			treeNode29->Text = L"Gas Filter";
-			treeNode30->Name = L"Узел23";
+			treeNode30->Name = L"Г“Г§ГҐГ«23";
 			treeNode30->Text = L"Heat Sink (Recipe: 1)";
-			treeNode31->Name = L"Узел24";
+			treeNode31->Name = L"Г“Г§ГҐГ«24";
 			treeNode31->Text = L"Heavy Modular Frame (Recipe: 1)";
-			treeNode32->Name = L"Узел25";
+			treeNode32->Name = L"Г“Г§ГҐГ«25";
 			treeNode32->Text = L"High-Speed Connector (Recipe: 1)";
-			treeNode33->Name = L"Узел26";
+			treeNode33->Name = L"Г“Г§ГҐГ«26";
 			treeNode33->Text = L"Iodine Infused Filter";
-			treeNode34->Name = L"Узел27";
+			treeNode34->Name = L"Г“Г§ГҐГ«27";
 			treeNode34->Text = L"Iron Ingot (Recipe: 1)";
-			treeNode35->Name = L"Узел28";
+			treeNode35->Name = L"Г“Г§ГҐГ«28";
 			treeNode35->Text = L"Iron Plate (Recipe: 1)";
-			treeNode36->Name = L"Узел29";
+			treeNode36->Name = L"Г“Г§ГҐГ«29";
 			treeNode36->Text = L"Iron Rod (Recipe: 1)";
-			treeNode37->Name = L"Узел30";
+			treeNode37->Name = L"Г“Г§ГҐГ«30";
 			treeNode37->Text = L"Modular Engine";
-			treeNode38->Name = L"Узел31";
+			treeNode38->Name = L"Г“Г§ГҐГ«31";
 			treeNode38->Text = L"Modular Frame (Recipe: 1)";
-			treeNode39->Name = L"Узел32";
+			treeNode39->Name = L"Г“Г§ГҐГ«32";
 			treeNode39->Text = L"Motor (Recipe: 1)";
-			treeNode40->Name = L"Узел33";
+			treeNode40->Name = L"Г“Г§ГҐГ«33";
 			treeNode40->Text = L"Nuclear Fuel Rod (Recipe: 1)";
-			treeNode41->Name = L"Узел34";
+			treeNode41->Name = L"Г“Г§ГҐГ«34";
 			treeNode41->Text = L"Plastic (Recipe: 1)";
-			treeNode42->Name = L"Узел35";
+			treeNode42->Name = L"Г“Г§ГҐГ«35";
 			treeNode42->Text = L"Quartz Crystal (Recipe: 1)";
-			treeNode43->Name = L"Узел36";
+			treeNode43->Name = L"Г“Г§ГҐГ«36";
 			treeNode43->Text = L"Quickwire (Recipe: 1)";
-			treeNode44->Name = L"Узел37";
+			treeNode44->Name = L"Г“Г§ГҐГ«37";
 			treeNode44->Text = L"Radio Control Unit (Recipe: 1)";
-			treeNode45->Name = L"Узел38";
+			treeNode45->Name = L"Г“Г§ГҐГ«38";
 			treeNode45->Text = L"Reinforced Iron Plate (Recipe: 1)";
-			treeNode46->Name = L"Узел39";
+			treeNode46->Name = L"Г“Г§ГҐГ«39";
 			treeNode46->Text = L"Rifle Cartridge";
-			treeNode47->Name = L"Узел40";
+			treeNode47->Name = L"Г“Г§ГҐГ«40";
 			treeNode47->Text = L"Rotor (Recipe: 1)";
-			treeNode48->Name = L"Узел41";
+			treeNode48->Name = L"Г“Г§ГҐГ«41";
 			treeNode48->Text = L"Rubber (Recipe: 1)";
-			treeNode49->Name = L"Узел42";
+			treeNode49->Name = L"Г“Г§ГҐГ«42";
 			treeNode49->Text = L"Screw (Recipe: 1)";
-			treeNode50->Name = L"Узел43";
+			treeNode50->Name = L"Г“Г§ГҐГ«43";
 			treeNode50->Text = L"Silica (Recipe: 1)";
-			treeNode51->Name = L"Узел44";
+			treeNode51->Name = L"Г“Г§ГҐГ«44";
 			treeNode51->Text = L"Smart Plating (Recipe: 1)";
-			treeNode52->Name = L"Узел45";
+			treeNode52->Name = L"Г“Г§ГҐГ«45";
 			treeNode52->Text = L"Stator (Recipe: 1)";
-			treeNode53->Name = L"Узел46";
+			treeNode53->Name = L"Г“Г§ГҐГ«46";
 			treeNode53->Text = L"Steel Beam";
-			treeNode54->Name = L"Узел47";
+			treeNode54->Name = L"Г“Г§ГҐГ«47";
 			treeNode54->Text = L"Steel Ingot (Recipe: 1)";
-			treeNode55->Name = L"Узел48";
+			treeNode55->Name = L"Г“Г§ГҐГ«48";
 			treeNode55->Text = L"Steel Pipe";
-			treeNode56->Name = L"Узел49";
+			treeNode56->Name = L"Г“Г§ГҐГ«49";
 			treeNode56->Text = L"Supercomputer";
-			treeNode57->Name = L"Узел50";
+			treeNode57->Name = L"Г“Г§ГҐГ«50";
 			treeNode57->Text = L"Turbo Motor (Recipe: 1)";
-			treeNode58->Name = L"Узел51";
+			treeNode58->Name = L"Г“Г§ГҐГ«51";
 			treeNode58->Text = L"Versatile Framework (Recipe: 1)";
-			treeNode59->Name = L"Узел52";
+			treeNode59->Name = L"Г“Г§ГҐГ«52";
 			treeNode59->Text = L"Wire (Recipe: 1)";
 			this->vanillaItems->Nodes->AddRange(gcnew cli::array< System::Windows::Forms::TreeNode^  >(53) {
 				treeNode7, treeNode8, treeNode9,
@@ -1017,8 +1017,8 @@ namespace SatisfactoryCalculator {
 			this->PerformLayout();
 
 		}
-		//==========================================================================================================================================================================
-#define dicount4 double(int(count*10000)/10000.0)
+//=====================================================================================================================	Functions
+#define dicount4 double(int(count*10000)/10000.0)	
 
 		/*done-res*/ TreeNode^ petroleumCoke(long double *Wt, double count) {
 			long double machines = 10000 * count, fWt = 0, aWt = 0;
