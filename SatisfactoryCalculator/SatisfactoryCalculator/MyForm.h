@@ -1008,7 +1008,7 @@ namespace SatisfactoryCalculator {
 			this->MaximizeBox = false;
 			this->Name = L"MyForm";
 			this->SizeGripStyle = System::Windows::Forms::SizeGripStyle::Hide;
-			this->Text = L"Satisfactory calculator";
+			this->Text = L"Satisfactory calculator FORK";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
